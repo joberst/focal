@@ -1,11 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
+  <head><% include partials/template/head.ejs %></head>
   <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
+  	<% include partials/template/header.ejs %>
+    <!-- <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p> -->
+
+    <section class="layout">
+    	<div class="primary">
+    		<% include partials/content/whatisfocal.ejs %>
+        <% include partials/content/getconnected.ejs %>
+        <% include partials/content/whoshouldcome.ejs %>
+    	</div><!-- primary -->
+    	<aside class="secondary">
+    		<% include partials/content/meetings.ejs %>
+        <% include partials/content/badges.ejs %>
+    	</aside><!-- secondary -->
+    </section><!-- layout -->
+    <% include partials/template/footer.ejs %>
+    <% include partials/template/jsdefaults.ejs %>
   </body>
 </html>
