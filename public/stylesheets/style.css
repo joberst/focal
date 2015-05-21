@@ -1,13 +1,148 @@
 @import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
+/********************************************
+Color Guide
+*********************
+017C99 - Dark Blue
+0CAACF - Mid Blue
+93D2E1 - Light Blue
+EFF1F1 - Bluish White
+FFD87C - Light Yellow
+8a8a8a - Gray
+a3a3a4 - M id Gray
+e1e1e1 - Light Gray
+*********************
+Styles
+*********************
+0.  Rest
+1. Universal Styles 
+2. Header and Nav Styles 
+3. Main Body Styles 
+4. Sidebar Styles 
+5. Footer Styles 
+6. Other 
+********************************************/
 
 
+/* ------------------
+---------------------
+0. Reset
+---------------------
+-------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* ------------------
+---------------------
+1. Universal Styles
+---------------------
+-------------------*/
+html {
+	background: #FFD87C;
+}
+
+body {
+	width: 80%;
+	margin: 0 auto;
+	background: white;
+}
+
+/* ------------------
+---------------------
+2. Header and Nav Styles
+---------------------
+-------------------*/
+
+header {
+	height: 300px;
+	margin-bottom: 1em;
+	background: #93D2E1;
+	}
+
+nav {
+	height: 25px;
+	margin-bottom: 1em;
+	background: #EFF1F1;
+	}
+
+
+
+/* ------------------
+---------------------
+3. Main Body Styles
+---------------------
+-------------------*/
 
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
+
+/* ------------------
+---------------------
+4. Sidebar Styles
+---------------------
+-------------------*/
+
+
+/* ------------------
+---------------------
+5. Footer Styles
+---------------------
+-------------------*/
+
+
+/* ------------------
+---------------------
+6. Other
+---------------------
+-------------------*/
+
+
 
 a {
   color: #00B7FF;
