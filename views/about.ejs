@@ -3,15 +3,17 @@
   <head><% include partials/template/head.ejs %></head>
   <body>
   	<% include partials/template/header.ejs %>
+    <% include partials/template/nav.ejs %>
+    
     <!-- <h1><%= title %></h1>
     <p>Welcome to <%= title %></p> -->
 
     <section class="layout">
-    	<div class="primary">
+    	<article class="primary">
     		<% include partials/content/whatisfocal.ejs %>
         <% include partials/content/getconnected.ejs %>
         <% include partials/content/whoshouldcome.ejs %>
-    	</div><!-- primary -->
+    	</article><!-- primary -->
     	<aside class="secondary">
     		<% include partials/content/meetings.ejs %>
         <% include partials/content/badges.ejs %>

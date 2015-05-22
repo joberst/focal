@@ -1,7 +1,7 @@
 @import url("http://fonts.googleapis.com/css?family=Bree+Serif|Merriweather:400,300,700,900");
 @import url("http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
 
-/********************************************
+/********************
 Color Guide
 *********************
 017C99 - Dark Blue
@@ -13,17 +13,18 @@ FFD87C - Light Yellow
 a3a3a4 - M id Gray
 e1e1e1 - Light Gray
 *********************
+
+*********************
 Styles
 *********************
-0.  Rest
+0. Reset
 1. Universal Styles 
 2. Header and Nav Styles 
 3. Main Body Styles 
 4. Sidebar Styles 
 5. Footer Styles 
 6. Other 
-********************************************/
-
+*********************/
 
 /* ------------------
 ---------------------
@@ -73,8 +74,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
-
 /* ------------------
 ---------------------
 1. Universal Styles
@@ -84,66 +83,66 @@ html {
 	background: #FFD87C;
 }
 
-body {
-	width: 80%;
-	margin: 0 auto;
-	background: white;
-}
-
 /* ------------------
 ---------------------
 2. Header and Nav Styles
 ---------------------
 -------------------*/
-
 header {
 	height: 300px;
 	margin-bottom: 1em;
 	background: #93D2E1;
-	}
-
+}
 nav {
 	height: 25px;
 	margin-bottom: 1em;
-	background: #EFF1F1;
-	}
-
-
+	background: white;
+}
 
 /* ------------------
 ---------------------
 3. Main Body Styles
 ---------------------
 -------------------*/
-
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	padding: 50px;
+  	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  	width: 80%;
+  	margin: 0 auto;
+	background: white;
 }
-
+article {
+	float: left;
+	width: 60%;
+}
 
 /* ------------------
 ---------------------
 4. Sidebar Styles
 ---------------------
 -------------------*/
-
+aside {
+	float: right;
+	width: 30%;
+}
 
 /* ------------------
 ---------------------
 5. Footer Styles
 ---------------------
 -------------------*/
-
+footer {
+	clear: both;
+	margin-top: 50em;
+	height: 50px;
+	background: #0CAACF;
+}
 
 /* ------------------
 ---------------------
 6. Other
 ---------------------
 -------------------*/
-
-
-
 a {
   color: #00B7FF;
 }
