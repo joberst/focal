@@ -13,8 +13,6 @@ FFD87C - Light Yellow
 a3a3a4 - Mid Gray
 e1e1e1 - Light Gray
 *********************
-
-*********************
 Styles
 *********************
 0. Reset
@@ -27,9 +25,7 @@ Styles
 *********************/
 
 /* ------------------
----------------------
 0. Reset
----------------------
 -------------------*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -75,99 +71,104 @@ table {
 	border-spacing: 0;
 }
 /* ------------------
----------------------
 1. Universal Styles
----------------------
 -------------------*/
 html {
 	background: #FFD87C;
 }
 
 /* ------------------
----------------------
 2. Header and Nav Styles
----------------------
 -------------------*/
 header {
 	height: 300px;
 	margin-bottom: 1em;
 	background: #93D2E1;
-	border: solid;
+	border: solid; /* visual only*/
 }
+
+#logo {
+	width: 200px;
+	height: 100px;
+}
+
 nav {
 	position: relative;
 	height: 25px;
 	margin-bottom: 1em;
 	background: white;
-	border: solid;
+	border: red solid; /* visual only*/
+	padding: 10px;
 }
 
 nav div section ul li {
 	float: left;
-	padding: 3px;
+	display: inline;
+	width: 80px;
+	font-size: 1.4em;
 }
 
 /* ------------------
----------------------
 3. Main Body Styles
----------------------
 -------------------*/
 body {
-  	padding: 50px;
+  	padding: 25px;
   	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   	width: 80%;
   	margin: 0 auto;
 	background: white;
-	border: solid;
+	border: solid; /* visual only*/
 }
 article {
 	float: left;
 	width: 65%;
-	border: dashed;
-	margin-bottom: 1em
+	border: dashed; /* visual only*/
+	margin-bottom: 1em;
 }
+
+
 
 p {
 	padding: 5px;
 }
 
+
 .contentpadding {
 	padding: 100;
-	border: solid;
-	background-color: #e1e1e1;
+	border: solid; /* visual only*/
+	background-color: #e1e1e1; /*visual gray only*/
+	margin: 10px;
+}
+
+.secondary {
+
 }
 
 /* ------------------
----------------------
 4. Sidebar Styles
----------------------
 -------------------*/
 aside {
 	position: relative;
 	float: right;
 	width: 32.5%;
-	border: dashed;
-}
-
-.badges {
-	position: absolute;
-	top: 20px;
-	left: 200px;
-	left
-	float: right;
-	width: 50%;
-
+	border: dashed; /* visual only*/
 }
 
 .meeting {
-	float: left;
-	width: 45%;
+	padding: 5px;
+	height: 100px;
+}
+
+.badges {
+	padding: 5px;
+}
+
+#badges {
+	height: 300px;
 }
 
 /* ------------------
----------------------
 5. Footer Styles
----------------------
 -------------------*/
 footer {
 	clear: both;
@@ -178,9 +179,7 @@ footer {
 }
 
 /* ------------------
----------------------
 6. Other
----------------------
 -------------------*/
 a {
   color: #00B7FF;
