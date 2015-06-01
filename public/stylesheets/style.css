@@ -126,12 +126,9 @@ article {
 	margin-bottom: 1em;
 }
 
-
-
 p {
 	padding: 5px;
 }
-
 
 .contentpadding {
 	padding: 100;
@@ -140,6 +137,12 @@ p {
 	margin: 10px;
 }
 
+#contentpadding {
+	padding: 100;
+	border: solid; /* visual only*/
+	background-color: #e1e1e1; /*visual gray only*/
+	margin: 10px;
+}
 .secondary {
 
 }
@@ -159,11 +162,11 @@ aside {
 	height: 100px;
 }
 
-.badges {
+.badgesdiv {
 	padding: 5px;
 }
 
-#badges {
+.badgecontainer {
 	height: 300px;
 }
 

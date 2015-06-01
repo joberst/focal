@@ -1,3 +1,8 @@
-<div class="badges">
-	<p class="contentpadding" id="badges">Badging Images / Interactive Placeholder</p>
+<div class="badgesdiv">
+	<ul class="badgecontainerheight" id="contentpadding">
+		<% appdata.badges.forEach(function(item) { %>
+			<li><a href="<%= item.url %>"><img class"icon" src"<%= item.img %>" alt="icon for <%= item.name %>"></a></li>
+		<% }); %>
+	</ul>	
 </div>
+
