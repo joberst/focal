@@ -1,10 +1,17 @@
 var express = require('express');
 var router = express.Router();
-//var appdata = require('../data.json');
+var appdata = require('../data.json');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+    var badgeIcons = [];
+	appdata.badges.forEach(function(item) {
+		badgeIcons = badgeIcons.concat(item.img);
+	});
+  res.render('index', { 
+  	title: 'Home',
+  	img: 'badgeIcons'
+   });
 });
 
 

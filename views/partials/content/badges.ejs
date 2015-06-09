@@ -1,8 +1,20 @@
 <div class="badgesdiv">
+<!--	
 	<ul class="badgecontainerheight" id="contentpadding">
 		<% appdata.badges.forEach(function(item) { %>
 			<li><a href="<%= item.url %>"><img class"icon" src"<%= item.img %>" alt="icon for <%= item.name %>"></a></li>
 		<% }); %>
 	</ul>	
+-->
+
+<p> Check out all the badges you can earn while completing the FOCAl program!</p>
+
+<div class="pixgrid">
+	<%if (img.length>0) {%>
+		<%for (i=0);i<img.length;i++) {%>
+			<img src="/images/badges/<%= img[i] %>" alt="Badge <%= i %>">
+		<%}%>
+	<%}%>
+
 </div>
 
