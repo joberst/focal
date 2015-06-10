@@ -72,7 +72,7 @@ table {
 1. Universal Styles
 -------------------*/
 html {
-	background: #FFD87C;
+	background: #FFD87C; /*light yellow*/
 }
 h1 {
 	font-size: 1.5em;
@@ -98,11 +98,9 @@ header {
 }
 
 nav {
-	position: relative;
 	height: 25px;
 	margin-bottom: 1em;
-	background: white;
-	border: red solid; /* visual only*/
+	background: FFD87C;
 	padding: 10px;
 }
 
@@ -111,6 +109,10 @@ nav div section ul li {
 	display: inline;
 	width: 80px;
 	font-size: 1.4em;
+}
+
+.login {
+	float: right;
 }
 
 /* ------------------
@@ -127,55 +129,55 @@ body {
 article {
 	float: left;
 	width: 65%;
-	border: dashed; /* visual only*/
 	margin-bottom: 1em;
 }
 
-
-.contentpadding {
-	padding: 100;
-	border: solid; /* visual only*/
-	background-color: #e1e1e1; /*visual gray only*/
-	margin: 10px;
-}
-
 #contentpadding {
-	padding: 100;
 	border: solid; /* visual only*/
 	background-color: #e1e1e1; /*visual gray only*/
 	margin: 10px;
+	padding: 5px;
 }
-.secondary {
+.whatisfocal {
+	background-color: yellow;
+}
 
+.getconnected [
+]
+
+.whoshouldcome {
+
+}
+
+.mentorship {
+
+}
+
+.mypath {
+	background-color: red
 }
 
 /* ------------------
 4. Sidebar Styles
 -------------------*/
 aside {
-	position: relative;
-	float: right;
+	float: left;
 	width: 32.5%;
-	border: dashed; /* visual only*/
 }
 
-.meeting {
+.meetings {
 	padding: 5px;
 	height: 100px;
 }
 
-.badgesdiv {
+.badges {
+	position: relative;
 	padding: 5px;
-	border: solid;/* visual only*/
+	height: 100%;
 }
 
-.badgecontainer {
-	height: 300px;
-}
-
-.icon {
-	float: left;
-	border: dashed, red, solid;
+.pixgrid {
+	text-align: center;
 }
 
 /* ------------------

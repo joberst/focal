@@ -8,16 +8,14 @@
     <!-- <h1><%= title %></h1>
     <p>Welcome to <%= title %></p> -->
 
-    <section>
-    	<article>
-    	    <% include partials/content/whatisfocal.ejs %>
-            <% include partials/content/getconnected.ejs %>
-            <% include partials/content/whoshouldcome.ejs %>
-    	</article><!-- primary -->
+    <section class="layout">
+    	 <article class="primary">
+    	    <% include partials/content/mypath.ejs %>
+    	 </article><!-- primary -->
 
-    	<aside>
-            <% include partials/content/mentors.ejs %>
-    	</aside><!-- secondary -->
+    	 <aside class="secondary">
+    	
+        </aside><!-- secondary -->
     </section><!-- layout -->
 
     <% include partials/template/footer.ejs %>
