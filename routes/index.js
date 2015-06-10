@@ -25,6 +25,10 @@ router.get('/login', function(req, res, next) {
   res.render('login', { title: 'Login' });
 });
 
+/* GET resources page. */
+router.get('/resources', function(req, res, next) {
+  res.render('resources', { title: 'Resources' });
+});
 
 module.exports = router;
 
