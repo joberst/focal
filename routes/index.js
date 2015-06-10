@@ -30,5 +30,10 @@ router.get('/resources', function(req, res, next) {
   res.render('resources', { title: 'Resources' });
 });
 
+/* GET join page. */
+router.get('/join', function(req, res, next) {
+  res.render('join', { title: 'Join' });
+});
+
 module.exports = router;
 
