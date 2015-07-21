@@ -52,6 +52,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin: auto;
 }
 ol, ul {
 	list-style: none;
@@ -100,21 +101,29 @@ header {
 }
 
 nav {
+	position: relative;
 	height: 25px;
 	margin-bottom: 1em;
-	background: FFD87C;
+	background: black;
+	border: solid red;
 	padding: 10px;
 }
 
-nav div section ul li {
+nav div section ul li a {
 	float: left;
 	display: inline;
+	text-decoration: none;
 	width: 80px;
 	font-size: 1.4em;
+	background-color: white;
 }
 
-.login {
-	float: right;
+div.mainnav {
+
+}
+
+div.login {
+
 }
 
 /* ------------------
@@ -135,7 +144,7 @@ article {
 
 #content {
 	border: dashed; /* visual only*/
-	background-color: #e1e1e1; /*visual gray only*/
+	background-color: #FFD6FF; /*visual gray only*/
 	margin: 10px;
 	padding: 5px;
 }
